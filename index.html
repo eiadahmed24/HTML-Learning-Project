@@ -1,0 +1,287 @@
+<html>
+
+<head>
+    <title>HTML Learning Guide</title>
+</head>
+
+<body>
+    <h1>HTML Learning Guide</h1>
+    <p>Welcome to HTML Learning Guide, a simple website created to explain the basics of HTML and demonstrate some of
+        the most important HTML elements</p>
+    <hr>
+
+    <h2>What is HTML?</h2>
+    <p>
+        HTML stands for HyperText Markup Language. It is the standard markup language used to create and structure
+        content on web pages.HTML helps developers organize text, images, links, forms, tables, and other elements on a
+        webpage.
+    </p>
+    <p>
+        HTML is a fundamental technology for web development, and it is essential for anyone interested in building
+        websites or web applications.
+    </p>
+    <hr>
+
+
+    <h2>HTML Document Structure</h2>
+    <p>Every HTML document has a basic structure that tells the browser how to read and display the webpage.</p>
+    <ul>
+        <li>HTML</li>
+        <li>head</li>
+        <li>title</li>
+        <li>body</li>
+    </ul>
+
+    <p>
+        The head section contains information about the webpage, while the body contains the content that appears on the
+        page.
+    </p>
+    <hr>
+
+
+    <h2>Common HTML Elements</h2>
+    <p>HTML provides many elements that can be used to organize and display different types of content.</p>
+    <ul>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Links</li>
+        <li>Images</li>
+        <li>Lists</li>
+        <li>Forms</li>
+        <li>Tables</li>
+        <li>Buttons</li>
+    </ul>
+    <h3>Headings</h3>
+    <p>Headings are used to create titles and subtitles on a webpage. HTML provides different heading levels from H1 to
+        H6.</p>
+    <h3>Paragraphs</h3>
+    <p>The paragraph element is used to display blocks of text and organize written content.</p>
+    <h3>Links</h3>
+    <p>Links allow users to move from one webpage to another webpage or to visit an external website.</p>
+    <h3>Images</h3>
+    <p>The image element is used to display images on a webpage. The alt attribute provides alternative text that
+        describes the image.</p>
+    <hr>
+
+    <h2>HTML Lists</h2>
+    <p>Lists are useful for organizing related information. HTML provides different types of lists.</p>
+    <h3>Unordered Lists</h3>
+    <p>An unordered list displays items without a specific order.</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+    </ul>
+
+    <ol>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JavaScript</li>
+        <li>Build Projects</li>
+    </ol>
+    <hr>
+
+    <h2>HTML Links</h2>
+    <p>Links are one of the most important parts of the web because they allow users to navigate between pages and
+        websites.</p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a>
+    <br>
+    <a href="https://www.w3schools.com/html/">W3Schools HTML</a>
+    <br>
+    <a href="https://www.google.com/">Google</a>
+    <hr>
+    <h2>HTML Images</h2>
+    <p>Images can make webpages more informative and easier to understand. HTML uses the image element to display images
+        on a webpage.</p>
+    <img src="https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/1717656091751_frontend_develoepr_roadmap3XAMJY.webp"
+        width="500" height="333" alt="Front-End Development Roadmap">
+    <p>This image Represents HTML, the markup language used to structure web pages.</p>
+    <hr>
+    <h2>HTML Forms</h2>
+    <p>HTML forms are used to collect information from users. Forms can contain different types of input fields,
+        selection controls, text areas, and buttons.</p>
+    <h3>Student Information</h3>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+
+        <Label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="cv">Upload CV:</label>
+        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx"><br><br>
+
+    <h3>Gender</h3>
+    <p>Please select your gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+
+    <h3>Skills</h3>
+    <p>Select the HTML topics you are interested in:</p>
+    <input type="checkbox" id="html" name="skills" value="HTML Basics">
+    <label for="html">HTML Basics</label><br>
+    <input type="checkbox" id="css" name="skills" value="HTML Forms">
+    <label for="css">HTML Forms</label><br>
+    <input type="checkbox" id="js" name="skills" value="HTML Tables">
+    <label for="js">HTML Tables</label><br>
+    <input type="checkbox" id="tables" name="skills" value="HTML Links">
+    <label for="tables">HTML Links</label><br>
+
+    <h3>Department</h3>
+    <p>Please select your department:</p>
+    <select name="department" id="department">
+        <option value="CS">Computer Science</option>
+        <option value="IT">Information Technology</option>
+        <option value="AI">Artificial Intelligence</option>
+    </select>
+
+    <h3>Favorite Programming Language</h3>
+    <p>Please select your favorite programming language:</p>
+    <input list="languages" name="language" id="language">
+    <datalist id="languages">
+        <option value="Python"></option>
+        <option value="C++"></option>
+        <option value="Java"></option>
+        <option value="Typescript"></option>
+    </datalist>
+    
+
+    <h3>Additional Notes</h3>
+    <textarea name="notes" id="notes" rows="4" cols="50"></textarea><br><br>
+    <button type="submit">Submit</button><br><br>
+    <button type="reset">Reset</button><br><br>
+    <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+    </form>
+
+    <hr>
+    <h2>HTML Tables</h2>
+    <p>HTML tables are used to organize information into rows and columns. Tables can be useful for displaying
+        structured data in an easy-to-read format.</p>
+    <h3>HTML Course Students</h3>
+    <table border="10">
+        <tr>
+            <th rowspan="2">Department</th>
+            <th colspan="5">student info</th>
+
+        </tr>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Age</th>
+            <th>skills</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Computer Science</td>
+            <td>Ahmed Ali</td>
+            <td>ahmed@example.com</td>
+            <td>01001234567</td>
+            <td>21</td>
+            <td>HTML, Forms</td>
+        </tr>
+        <tr>
+            <td>Reem Saeed</td>
+            <td>reem@example.com</td>
+            <td>01122334455</td>
+            <td>20</td>
+            <td>HTML, Tables</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Information Technology</td>
+            <td>Mohamed Tarek</td>
+            <td>mohamed@example.com</td>
+            <td>01233445566</td>
+            <td>22</td>
+            <td>HTML, Links</td>
+        </tr>
+        <tr>
+            <td>Salma Nabil</td>
+            <td>salma@example.com</td>
+            <td>01099887766</td>
+            <td>23</td>
+            <td>HTML, Forms, Tables</td>
+        </tr>
+        <tr>
+            <td>Artificial Intelligence</td>
+            <td>Omar Hossam</td>
+            <td>omar@example.com</td>
+            <td>01155667788</td>
+            <td>21</td>
+            <td>HTML, Images</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h2>HTML Attributes</h2>
+    <p>HTML attributes provide additional information about HTML elements. They are written inside the opening tag and
+        can change the behavior or provide information about an element</p>
+    <ul>
+        <li>href — used with links.</li>
+        <li>src — specifies the source of an image.</li>
+        <li>alt — provides alternative text for an image.</li>
+        <li>id — identifies a specific element.</li>
+        <li>name — identifies form controls.</li>
+        <li>value — specifies the value of a form control.</li>
+        <li>type — specifies the type of an input.</li>
+    </ul>
+    <hr>
+    <h2>What I Learned</h2>
+    <p>During my HTML learning journey, I learned how to create and structure webpages using different HTML elements and
+        attributes.</p>
+    <ul>
+        <li>Creating HTML document structures</li>
+        <li>Working with headings and paragraphs</li>
+        <li>Creating links</li>
+        <li>Adding images</li>
+        <li>Creating ordered and unordered lists</li>
+        <li>Building forms</li>
+        <li>Working with different input types</li>
+        <li>Using radio buttons and checkboxes</li>
+        <li>Creating dropdown lists</li>
+        <li>Using datalists</li>
+        <li>Creating text areas and buttons</li>
+        <li>Creating HTML tables</li>
+        <li>Using rowspan and colspan</li>
+    </ul>
+    <hr>
+    <h2>What Comes Next?</h2>
+    <p>HTML is only the first step in my Front-End Development journey. My next step is learning CSS to improve the
+        design, layout, colors, and overall appearance of webpages.</p>
+    <p>After CSS, I will continue learning JavaScript to add interactivity and dynamic features to my websites.</p>
+    <hr>
+    <h2>Useful HTML Resources</h2>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs - HTML</a><br>
+    <a href="https://www.w3schools.com/html/">W3Schools - HTML Tutorial</a><br>
+    <a href="https://html.spec.whatwg.org/">WHATWG - HTML Living Standard</a><br>
+    <a href="https://www.google.com/">Google</a>
+    <hr>
+    <h4>HTML Learning Guide</h4>
+    <h4>Created by: Eiad Ahmed Mahmoud</h4>
+    <h3><a href="https://www.linkedin.com/in/eiad-ahmed-a84a8a325">My LinkedIn Profile</a></h3>
+    <h3>Part of my Front-End Development learning journey</h3>
+
+</body>
+
+</html>
